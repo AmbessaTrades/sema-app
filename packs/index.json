@@ -1,0 +1,20 @@
+[
+ {
+  "id": "ambi-sw",
+  "title": "Ambi · Kiswahili",
+  "targets": [
+   "sw"
+  ],
+  "thoughts": 1218,
+  "core": 224
+ },
+ {
+  "id": "fixture",
+  "title": "Fixture pack (12 sentences)",
+  "targets": [
+   "sw"
+  ],
+  "thoughts": 12,
+  "core": 9
+ }
+]

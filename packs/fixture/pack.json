@@ -1,0 +1,1110 @@
+{
+  "format": "sema-pack@1",
+  "id": "fixture",
+  "title": "Fixture pack (12 sentences)",
+  "version": "1",
+  "base": "en",
+  "targets": [
+    "sw"
+  ],
+  "audioBase": "./packs/fixture/audio/",
+  "islands": [
+    {
+      "id": "greetings",
+      "name": {
+        "en": "Greetings & small talk"
+      },
+      "order": 1,
+      "blurb": {
+        "en": "Saying hello and the little talk before the real talk."
+      },
+      "hue": 38
+    },
+    {
+      "id": "market",
+      "name": {
+        "en": "Market, shopping & prices"
+      },
+      "order": 2,
+      "blurb": {
+        "en": "Asking how much, choosing and buying at the stall."
+      },
+      "hue": 150
+    }
+  ],
+  "thoughts": [
+    {
+      "id": "fix-0001",
+      "island": "greetings",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "Good morning.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/fix-0001.mp3",
+              "ms": 875,
+              "words": [
+                {
+                  "w": "Good",
+                  "s": 28,
+                  "e": 303
+                },
+                {
+                  "w": "morning.",
+                  "s": 340,
+                  "e": 740
+                }
+              ]
+            }
+          ]
+        },
+        "sw": {
+          "text": "Habari za asubuhi.",
+          "alt": [
+            "Habari ya asubuhi."
+          ],
+          "status": "reviewed",
+          "audio": [
+            {
+              "voice": "sw-KE-ZuriNeural",
+              "src": "sw-KE-ZuriNeural/fix-0001.mp3",
+              "ms": 1566,
+              "words": [
+                {
+                  "w": "Habari",
+                  "s": 108,
+                  "e": 446
+                },
+                {
+                  "w": "za",
+                  "s": 534,
+                  "e": 684
+                },
+                {
+                  "w": "asubuhi.",
+                  "s": 721,
+                  "e": 1346
+                }
+              ]
+            },
+            {
+              "voice": "sw-KE-RafikiNeural",
+              "src": "sw-KE-RafikiNeural/fix-0001.mp3",
+              "ms": 1477,
+              "words": [
+                {
+                  "w": "Habari",
+                  "s": 114,
+                  "e": 402
+                },
+                {
+                  "w": "za",
+                  "s": 514,
+                  "e": 652
+                },
+                {
+                  "w": "asubuhi.",
+                  "s": 689,
+                  "e": 1239
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "fix-0002",
+      "island": "greetings",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "How are you?",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/fix-0002.mp3",
+              "ms": 806,
+              "words": [
+                {
+                  "w": "How",
+                  "s": 9,
+                  "e": 246
+                },
+                {
+                  "w": "are",
+                  "s": 246,
+                  "e": 409
+                },
+                {
+                  "w": "you?",
+                  "s": 434,
+                  "e": 546
+                }
+              ]
+            }
+          ]
+        },
+        "sw": {
+          "text": "Habari yako?",
+          "alt": [
+            "Hujambo?",
+            "U hali gani?"
+          ],
+          "note": "Habari = news. Literally \"your news?\" — the everyday greeting.",
+          "status": "reviewed",
+          "audio": [
+            {
+              "voice": "sw-KE-ZuriNeural",
+              "src": "sw-KE-ZuriNeural/fix-0002.mp3",
+              "ms": 1161,
+              "words": [
+                {
+                  "w": "Habari",
+                  "s": 108,
+                  "e": 458
+                },
+                {
+                  "w": "yako?",
+                  "s": 546,
+                  "e": 946
+                }
+              ]
+            },
+            {
+              "voice": "sw-KE-RafikiNeural",
+              "src": "sw-KE-RafikiNeural/fix-0002.mp3",
+              "ms": 1077,
+              "words": [
+                {
+                  "w": "Habari",
+                  "s": 122,
+                  "e": 397
+                },
+                {
+                  "w": "yako?",
+                  "s": 497,
+                  "e": 834
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "fix-0003",
+      "island": "greetings",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "I am fine.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/fix-0003.mp3",
+              "ms": 960,
+              "words": [
+                {
+                  "w": "I",
+                  "s": 13,
+                  "e": 188
+                },
+                {
+                  "w": "am",
+                  "s": 213,
+                  "e": 350
+                },
+                {
+                  "w": "fine.",
+                  "s": 413,
+                  "e": 713
+                }
+              ]
+            }
+          ]
+        },
+        "sw": {
+          "text": "Sijambo.",
+          "alt": [
+            "Nzuri.",
+            "Niko salama."
+          ],
+          "note": "Sijambo answers Hujambo. Nzuri answers Habari.",
+          "status": "reviewed",
+          "audio": [
+            {
+              "voice": "sw-KE-ZuriNeural",
+              "src": "sw-KE-ZuriNeural/fix-0003.mp3",
+              "ms": 998,
+              "words": [
+                {
+                  "w": "Sijambo.",
+                  "s": 84,
+                  "e": 709
+                }
+              ]
+            },
+            {
+              "voice": "sw-KE-RafikiNeural",
+              "src": "sw-KE-RafikiNeural/fix-0003.mp3",
+              "ms": 859,
+              "words": [
+                {
+                  "w": "Sijambo.",
+                  "s": 90,
+                  "e": 565
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "fix-0004",
+      "island": "greetings",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "Thank you very much.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/fix-0004.mp3",
+              "ms": 1189,
+              "words": [
+                {
+                  "w": "Thank",
+                  "s": 19,
+                  "e": 269
+                },
+                {
+                  "w": "you",
+                  "s": 306,
+                  "e": 382
+                },
+                {
+                  "w": "very",
+                  "s": 394,
+                  "e": 606
+                },
+                {
+                  "w": "much.",
+                  "s": 632,
+                  "e": 956
+                }
+              ]
+            }
+          ]
+        },
+        "sw": {
+          "text": "Asante sana.",
+          "status": "reviewed",
+          "audio": [
+            {
+              "voice": "sw-KE-ZuriNeural",
+              "src": "sw-KE-ZuriNeural/fix-0004.mp3",
+              "ms": 1267,
+              "words": [
+                {
+                  "w": "Asante",
+                  "s": 96,
+                  "e": 446
+                },
+                {
+                  "w": "sana.",
+                  "s": 559,
+                  "e": 1034
+                }
+              ]
+            },
+            {
+              "voice": "sw-KE-RafikiNeural",
+              "src": "sw-KE-RafikiNeural/fix-0004.mp3",
+              "ms": 1173,
+              "words": [
+                {
+                  "w": "Asante",
+                  "s": 116,
+                  "e": 429
+                },
+                {
+                  "w": "sana.",
+                  "s": 554,
+                  "e": 942
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "fix-0005",
+      "island": "greetings",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "No worries at all.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/fix-0005.mp3",
+              "ms": 1227,
+              "words": [
+                {
+                  "w": "No",
+                  "s": 21,
+                  "e": 246
+                },
+                {
+                  "w": "worries",
+                  "s": 296,
+                  "e": 584
+                },
+                {
+                  "w": "at",
+                  "s": 584,
+                  "e": 746
+                },
+                {
+                  "w": "all.",
+                  "s": 808,
+                  "e": 1021
+                }
+              ]
+            }
+          ]
+        },
+        "sw": {
+          "text": "Hakuna shida kabisa.",
+          "alt": [
+            "Hakuna wasiwasi kabisa."
+          ],
+          "status": "reviewed",
+          "audio": [
+            {
+              "voice": "sw-KE-ZuriNeural",
+              "src": "sw-KE-ZuriNeural/fix-0005.mp3",
+              "ms": 1699,
+              "words": [
+                {
+                  "w": "Hakuna",
+                  "s": 106,
+                  "e": 406
+                },
+                {
+                  "w": "shida",
+                  "s": 494,
+                  "e": 869
+                },
+                {
+                  "w": "kabisa.",
+                  "s": 906,
+                  "e": 1469
+                }
+              ]
+            },
+            {
+              "voice": "sw-KE-RafikiNeural",
+              "src": "sw-KE-RafikiNeural/fix-0005.mp3",
+              "ms": 1493,
+              "words": [
+                {
+                  "w": "Hakuna",
+                  "s": 113,
+                  "e": 326
+                },
+                {
+                  "w": "shida",
+                  "s": 426,
+                  "e": 713
+                },
+                {
+                  "w": "kabisa.",
+                  "s": 750,
+                  "e": 1263
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "fix-0006",
+      "island": "greetings",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "See you tomorrow.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/fix-0006.mp3",
+              "ms": 1055,
+              "words": [
+                {
+                  "w": "See",
+                  "s": 15,
+                  "e": 265
+                },
+                {
+                  "w": "you",
+                  "s": 278,
+                  "e": 378
+                },
+                {
+                  "w": "tomorrow.",
+                  "s": 452,
+                  "e": 852
+                }
+              ]
+            }
+          ]
+        },
+        "sw": {
+          "text": "Tutaonana kesho.",
+          "status": "reviewed",
+          "audio": [
+            {
+              "voice": "sw-KE-ZuriNeural",
+              "src": "sw-KE-ZuriNeural/fix-0006.mp3",
+              "ms": 1493,
+              "words": [
+                {
+                  "w": "Tutaonana",
+                  "s": 100,
+                  "e": 638
+                },
+                {
+                  "w": "kesho.",
+                  "s": 750,
+                  "e": 1262
+                }
+              ]
+            },
+            {
+              "voice": "sw-KE-RafikiNeural",
+              "src": "sw-KE-RafikiNeural/fix-0006.mp3",
+              "ms": 1277,
+              "words": [
+                {
+                  "w": "Tutaonana",
+                  "s": 106,
+                  "e": 532
+                },
+                {
+                  "w": "kesho.",
+                  "s": 656,
+                  "e": 1069
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": false
+    },
+    {
+      "id": "fix-0007",
+      "island": "market",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "How much is this?",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/fix-0007.mp3",
+              "ms": 1181,
+              "words": [
+                {
+                  "w": "How",
+                  "s": 12,
+                  "e": 200
+                },
+                {
+                  "w": "much",
+                  "s": 237,
+                  "e": 412
+                },
+                {
+                  "w": "is",
+                  "s": 462,
+                  "e": 574
+                },
+                {
+                  "w": "this?",
+                  "s": 637,
+                  "e": 962
+                }
+              ]
+            }
+          ]
+        },
+        "sw": {
+          "text": "Hii ni bei gani?",
+          "alt": [
+            "Hii ni shilingi ngapi?"
+          ],
+          "status": "reviewed",
+          "audio": [
+            {
+              "voice": "sw-KE-ZuriNeural",
+              "src": "sw-KE-ZuriNeural/fix-0007.mp3",
+              "ms": 1410,
+              "words": [
+                {
+                  "w": "Hii",
+                  "s": 86,
+                  "e": 223
+                },
+                {
+                  "w": "ni",
+                  "s": 310,
+                  "e": 410
+                },
+                {
+                  "w": "bei",
+                  "s": 436,
+                  "e": 710
+                },
+                {
+                  "w": "gani?",
+                  "s": 748,
+                  "e": 1160
+                }
+              ]
+            },
+            {
+              "voice": "sw-KE-RafikiNeural",
+              "src": "sw-KE-RafikiNeural/fix-0007.mp3",
+              "ms": 1315,
+              "words": [
+                {
+                  "w": "Hii",
+                  "s": 95,
+                  "e": 158
+                },
+                {
+                  "w": "ni",
+                  "s": 270,
+                  "e": 370
+                },
+                {
+                  "w": "bei",
+                  "s": 395,
+                  "e": 645
+                },
+                {
+                  "w": "gani?",
+                  "s": 682,
+                  "e": 1058
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "fix-0008",
+      "island": "market",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "I want two mangoes.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/fix-0008.mp3",
+              "ms": 1353,
+              "words": [
+                {
+                  "w": "I",
+                  "s": 9,
+                  "e": 159
+                },
+                {
+                  "w": "want",
+                  "s": 209,
+                  "e": 396
+                },
+                {
+                  "w": "two",
+                  "s": 472,
+                  "e": 572
+                },
+                {
+                  "w": "mangoes.",
+                  "s": 609,
+                  "e": 1146
+                }
+              ]
+            }
+          ]
+        },
+        "sw": {
+          "text": "Nataka maembe mawili.",
+          "note": "embe/maembe is class 5/6, so \"two\" is mawili.",
+          "status": "reviewed",
+          "audio": [
+            {
+              "voice": "sw-KE-ZuriNeural",
+              "src": "sw-KE-ZuriNeural/fix-0008.mp3",
+              "ms": 1607,
+              "words": [
+                {
+                  "w": "Nataka",
+                  "s": 106,
+                  "e": 418
+                },
+                {
+                  "w": "maembe",
+                  "s": 518,
+                  "e": 881
+                },
+                {
+                  "w": "mawili.",
+                  "s": 906,
+                  "e": 1381
+                }
+              ]
+            },
+            {
+              "voice": "sw-KE-RafikiNeural",
+              "src": "sw-KE-RafikiNeural/fix-0008.mp3",
+              "ms": 1621,
+              "words": [
+                {
+                  "w": "Nataka",
+                  "s": 116,
+                  "e": 366
+                },
+                {
+                  "w": "maembe",
+                  "s": 492,
+                  "e": 879
+                },
+                {
+                  "w": "mawili.",
+                  "s": 916,
+                  "e": 1379
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "fix-0009",
+      "island": "market",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "I am going to the market.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/fix-0009.mp3",
+              "ms": 1487,
+              "words": [
+                {
+                  "w": "I",
+                  "s": 18,
+                  "e": 168
+                },
+                {
+                  "w": "am",
+                  "s": 193,
+                  "e": 280
+                },
+                {
+                  "w": "going",
+                  "s": 368,
+                  "e": 606
+                },
+                {
+                  "w": "to",
+                  "s": 606,
+                  "e": 680
+                },
+                {
+                  "w": "the",
+                  "s": 718,
+                  "e": 780
+                },
+                {
+                  "w": "market.",
+                  "s": 806,
+                  "e": 1193
+                }
+              ]
+            }
+          ]
+        },
+        "sw": {
+          "text": "Ninakwenda sokoni.",
+          "alt": [
+            "Naenda sokoni."
+          ],
+          "note": "-ni on soko means \"to/at the market\" — no separate word for \"to\".",
+          "status": "reviewed",
+          "audio": [
+            {
+              "voice": "sw-KE-ZuriNeural",
+              "src": "sw-KE-ZuriNeural/fix-0009.mp3",
+              "ms": 1493,
+              "words": [
+                {
+                  "w": "Ninakwenda",
+                  "s": 106,
+                  "e": 532
+                },
+                {
+                  "w": "sokoni.",
+                  "s": 644,
+                  "e": 1282
+                }
+              ]
+            },
+            {
+              "voice": "sw-KE-RafikiNeural",
+              "src": "sw-KE-RafikiNeural/fix-0009.mp3",
+              "ms": 1424,
+              "words": [
+                {
+                  "w": "Ninakwenda",
+                  "s": 114,
+                  "e": 514
+                },
+                {
+                  "w": "sokoni.",
+                  "s": 640,
+                  "e": 1202
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "fix-0010",
+      "island": "market",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "I do not have money today.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/fix-0010.mp3",
+              "ms": 1506,
+              "words": [
+                {
+                  "w": "I",
+                  "s": 31,
+                  "e": 168
+                },
+                {
+                  "w": "do",
+                  "s": 244,
+                  "e": 318
+                },
+                {
+                  "w": "not",
+                  "s": 344,
+                  "e": 556
+                },
+                {
+                  "w": "have",
+                  "s": 556,
+                  "e": 718
+                },
+                {
+                  "w": "money",
+                  "s": 744,
+                  "e": 981
+                },
+                {
+                  "w": "today.",
+                  "s": 1031,
+                  "e": 1294
+                }
+              ]
+            }
+          ]
+        },
+        "sw": {
+          "text": "Sina pesa leo.",
+          "status": "reviewed",
+          "audio": [
+            {
+              "voice": "sw-KE-ZuriNeural",
+              "src": "sw-KE-ZuriNeural/fix-0010.mp3",
+              "ms": 1435,
+              "words": [
+                {
+                  "w": "Sina",
+                  "s": 71,
+                  "e": 358
+                },
+                {
+                  "w": "pesa",
+                  "s": 471,
+                  "e": 796
+                },
+                {
+                  "w": "leo.",
+                  "s": 821,
+                  "e": 1208
+                }
+              ]
+            },
+            {
+              "voice": "sw-KE-RafikiNeural",
+              "src": "sw-KE-RafikiNeural/fix-0010.mp3",
+              "ms": 1240,
+              "words": [
+                {
+                  "w": "Sina",
+                  "s": 96,
+                  "e": 284
+                },
+                {
+                  "w": "pesa",
+                  "s": 396,
+                  "e": 696
+                },
+                {
+                  "w": "leo.",
+                  "s": 734,
+                  "e": 1021
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": false
+    },
+    {
+      "id": "fix-0011",
+      "island": "market",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "I want water, please.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/fix-0011.mp3",
+              "ms": 1516,
+              "words": [
+                {
+                  "w": "I",
+                  "s": 0,
+                  "e": 172
+                },
+                {
+                  "w": "want",
+                  "s": 222,
+                  "e": 410
+                },
+                {
+                  "w": "water,",
+                  "s": 460,
+                  "e": 734
+                },
+                {
+                  "w": "please.",
+                  "s": 934,
+                  "e": 1322
+                }
+              ]
+            }
+          ]
+        },
+        "sw": {
+          "text": "Nataka maji, tafadhali.",
+          "status": "reviewed",
+          "audio": [
+            {
+              "voice": "sw-KE-ZuriNeural",
+              "src": "sw-KE-ZuriNeural/fix-0011.mp3",
+              "ms": 1987,
+              "words": [
+                {
+                  "w": "Nataka",
+                  "s": 107,
+                  "e": 407
+                },
+                {
+                  "w": "maji,",
+                  "s": 507,
+                  "e": 932
+                },
+                {
+                  "w": "tafadhali.",
+                  "s": 1032,
+                  "e": 1770
+                }
+              ]
+            },
+            {
+              "voice": "sw-KE-RafikiNeural",
+              "src": "sw-KE-RafikiNeural/fix-0011.mp3",
+              "ms": 1759,
+              "words": [
+                {
+                  "w": "Nataka",
+                  "s": 116,
+                  "e": 354
+                },
+                {
+                  "w": "maji,",
+                  "s": 479,
+                  "e": 842
+                },
+                {
+                  "w": "tafadhali.",
+                  "s": 929,
+                  "e": 1529
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "fix-0012",
+      "island": "market",
+      "role": "hear",
+      "texts": {
+        "en": {
+          "text": "Welcome, customer.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/fix-0012.mp3",
+              "ms": 1377,
+              "words": [
+                {
+                  "w": "Welcome,",
+                  "s": 8,
+                  "e": 483
+                },
+                {
+                  "w": "customer.",
+                  "s": 720,
+                  "e": 1208
+                }
+              ]
+            }
+          ]
+        },
+        "sw": {
+          "text": "Karibu, mteja.",
+          "status": "reviewed",
+          "audio": [
+            {
+              "voice": "sw-KE-ZuriNeural",
+              "src": "sw-KE-ZuriNeural/fix-0012.mp3",
+              "ms": 1549,
+              "words": [
+                {
+                  "w": "Karibu,",
+                  "s": 102,
+                  "e": 526
+                },
+                {
+                  "w": "mteja.",
+                  "s": 689,
+                  "e": 1326
+                }
+              ]
+            },
+            {
+              "voice": "sw-KE-RafikiNeural",
+              "src": "sw-KE-RafikiNeural/fix-0012.mp3",
+              "ms": 1312,
+              "words": [
+                {
+                  "w": "Karibu,",
+                  "s": 108,
+                  "e": 395
+                },
+                {
+                  "w": "mteja.",
+                  "s": 582,
+                  "e": 1095
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": false
+    }
+  ],
+  "voices": [
+    {
+      "id": "sw-KE-ZuriNeural",
+      "lang": "sw",
+      "label": "Zuri (Kenya, female)",
+      "gender": "female"
+    },
+    {
+      "id": "sw-KE-RafikiNeural",
+      "lang": "sw",
+      "label": "Rafiki (Kenya, male)",
+      "gender": "male"
+    },
+    {
+      "id": "en-KE-ChilembaNeural",
+      "lang": "en",
+      "label": "Chilemba (Kenya, male)",
+      "gender": "male"
+    }
+  ]
+}

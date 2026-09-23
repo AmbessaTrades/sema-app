@@ -26817,7 +26817,10 @@
         }
       },
       "kind": "styled",
-      "core": false
+      "core": false,
+      "tags": [
+        "kit:7"
+      ]
     },
     {
       "id": "amb-0200",
@@ -26912,7 +26915,10 @@
         }
       },
       "kind": "styled",
-      "core": false
+      "core": false,
+      "tags": [
+        "kit:6"
+      ]
     },
     {
       "id": "amb-0201",
@@ -27026,7 +27032,10 @@
         }
       },
       "kind": "styled",
-      "core": false
+      "core": false,
+      "tags": [
+        "kit:1"
+      ]
     },
     {
       "id": "amb-0202",
@@ -27154,7 +27163,10 @@
         }
       },
       "kind": "styled",
-      "core": false
+      "core": false,
+      "tags": [
+        "kit:2"
+      ]
     },
     {
       "id": "amb-0203",
@@ -133140,7 +133152,10 @@
         }
       },
       "kind": "styled",
-      "core": true
+      "core": true,
+      "tags": [
+        "kit:8"
+      ]
     },
     {
       "id": "amb-0978",
@@ -133535,7 +133550,10 @@
         }
       },
       "kind": "styled",
-      "core": true
+      "core": true,
+      "tags": [
+        "kit:4"
+      ]
     },
     {
       "id": "amb-0981",
@@ -133678,7 +133696,10 @@
         }
       },
       "kind": "styled",
-      "core": true
+      "core": true,
+      "tags": [
+        "kit:5"
+      ]
     },
     {
       "id": "amb-0982",
@@ -133792,7 +133813,10 @@
         }
       },
       "kind": "styled",
-      "core": true
+      "core": true,
+      "tags": [
+        "kit:3"
+      ]
     },
     {
       "id": "amb-0983",

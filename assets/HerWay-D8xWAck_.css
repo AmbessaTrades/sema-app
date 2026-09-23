@@ -1,0 +1,1 @@
+.herway{border-left:3px solid var(--sea);background:var(--sea-soft);border-radius:0 10px 10px 0;flex-direction:column;gap:0;margin:6px 0 0;padding:8px 12px;display:flex}.herway__who{letter-spacing:.02em;color:var(--ink-2);font-size:13px;font-weight:700}.herway__text{font-family:var(--font-sentence);font-size:calc(19px * var(--scale));color:var(--ink);line-height:1.3}

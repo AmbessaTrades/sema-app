@@ -1,0 +1,1557 @@
+{
+  "format": "sema-pack@2",
+  "id": "ar-eg-fixture",
+  "title": "Arabic (Egypt) · fixture (12 lines)",
+  "version": "1",
+  "base": "en",
+  "targets": [
+    "ar-EG"
+  ],
+  "lang": {
+    "code": "ar-EG",
+    "script": "Arab",
+    "dir": "rtl",
+    "font": "arab"
+  },
+  "audioBase": "./packs/ar-eg-fixture/audio/",
+  "islands": [
+    {
+      "id": "greetings",
+      "name": {
+        "en": "Greetings"
+      },
+      "order": 1,
+      "blurb": {
+        "en": "Hello, how are you, and your name."
+      },
+      "hue": 38
+    },
+    {
+      "id": "basics",
+      "name": {
+        "en": "When you don't understand"
+      },
+      "order": 2,
+      "blurb": {
+        "en": "Asking again, and saying you are learning."
+      },
+      "hue": 200
+    },
+    {
+      "id": "market",
+      "name": {
+        "en": "Buying"
+      },
+      "order": 3,
+      "blurb": {
+        "en": "What you want, and how much it is."
+      },
+      "hue": 150
+    },
+    {
+      "id": "around",
+      "name": {
+        "en": "Getting around"
+      },
+      "order": 4,
+      "blurb": {
+        "en": "Finding the way."
+      },
+      "hue": 280
+    }
+  ],
+  "thoughts": [
+    {
+      "id": "st-0001",
+      "island": "greetings",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "Good morning.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0001.639a531b.mp3",
+              "ms": 875,
+              "words": [
+                {
+                  "w": "Good",
+                  "s": 28,
+                  "e": 303
+                },
+                {
+                  "w": "morning.",
+                  "s": 340,
+                  "e": 740
+                }
+              ]
+            }
+          ]
+        },
+        "ar-EG": {
+          "text": "صباح الخير.",
+          "translit": "sabaah il-kheer.",
+          "note": "The answer: صباح النور (sabaah in-nuur).",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "ar-EG-SalmaNeural",
+              "src": "ar-EG-SalmaNeural/st-0001.df2ad3e2.mp3",
+              "ms": 1207,
+              "words": [
+                {
+                  "w": "صباح",
+                  "s": 0,
+                  "e": 502
+                },
+                {
+                  "w": "الخير.",
+                  "s": 514,
+                  "e": 1126
+                }
+              ]
+            },
+            {
+              "voice": "ar-EG-ShakirNeural",
+              "src": "ar-EG-ShakirNeural/st-0001.7de1f586.mp3",
+              "ms": 1271,
+              "words": [
+                {
+                  "w": "صباح",
+                  "s": 45,
+                  "e": 558
+                },
+                {
+                  "w": "الخير.",
+                  "s": 558,
+                  "e": 1220
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0002",
+      "island": "greetings",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "How are you?",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0002.2398abd1.mp3",
+              "ms": 806,
+              "words": [
+                {
+                  "w": "How",
+                  "s": 9,
+                  "e": 246
+                },
+                {
+                  "w": "are",
+                  "s": 246,
+                  "e": 409
+                },
+                {
+                  "w": "you?",
+                  "s": 434,
+                  "e": 546
+                }
+              ]
+            }
+          ]
+        },
+        "ar-EG": {
+          "text": "إزيك؟",
+          "translit": "izzayyak?",
+          "note": "Written the same to a man and to a woman. Said izzayyak to a man, izzayyik to a woman.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "ar-EG-SalmaNeural",
+              "src": "ar-EG-SalmaNeural/st-0002.b68bc9af.mp3",
+              "ms": 887,
+              "words": [
+                {
+                  "w": "إزيك؟",
+                  "s": 13,
+                  "e": 763
+                }
+              ]
+            },
+            {
+              "voice": "ar-EG-ShakirNeural",
+              "src": "ar-EG-ShakirNeural/st-0002.7acb438f.mp3",
+              "ms": 773,
+              "words": [
+                {
+                  "w": "إزيك؟",
+                  "s": 45,
+                  "e": 682
+                }
+              ]
+            }
+          ],
+          "variants": {
+            "addressee_f": {
+              "text": "إزيك؟",
+              "translit": "izzayyik?",
+              "audio": [
+                {
+                  "voice": "ar-EG-SalmaNeural",
+                  "src": "ar-EG-SalmaNeural/st-0002.addressee_f.68ffb1c0.mp3",
+                  "ms": 718,
+                  "words": [
+                    {
+                      "w": "إزيك؟",
+                      "s": 13,
+                      "e": 576
+                    }
+                  ]
+                },
+                {
+                  "voice": "ar-EG-ShakirNeural",
+                  "src": "ar-EG-ShakirNeural/st-0002.addressee_f.615d6a90.mp3",
+                  "ms": 866,
+                  "words": [
+                    {
+                      "w": "إزيك؟",
+                      "s": 44,
+                      "e": 719
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0003",
+      "island": "greetings",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "I'm fine, thank God.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0003.6eb7edf4.mp3",
+              "ms": 1570,
+              "words": [
+                {
+                  "w": "I'm",
+                  "s": 18,
+                  "e": 256
+                },
+                {
+                  "w": "fine,",
+                  "s": 256,
+                  "e": 568
+                },
+                {
+                  "w": "thank",
+                  "s": 818,
+                  "e": 1030
+                },
+                {
+                  "w": "God.",
+                  "s": 1130,
+                  "e": 1356
+                }
+              ]
+            }
+          ]
+        },
+        "ar-EG": {
+          "text": "كويس، الحمد لله.",
+          "translit": "kwayyis, il-hamdu lillaah.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "ar-EG-ShakirNeural",
+              "src": "ar-EG-ShakirNeural/st-0003.a35ab952.mp3",
+              "ms": 2808,
+              "words": [
+                {
+                  "w": "كويس،",
+                  "s": 30,
+                  "e": 855
+                },
+                {
+                  "w": "الحمد",
+                  "s": 1655,
+                  "e": 2130
+                },
+                {
+                  "w": "لله.",
+                  "s": 2130,
+                  "e": 2742
+                }
+              ]
+            }
+          ],
+          "variants": {
+            "speaker_f": {
+              "text": "كويسة، الحمد لله.",
+              "translit": "kwayyisa, il-hamdu lillaah.",
+              "audio": [
+                {
+                  "voice": "ar-EG-SalmaNeural",
+                  "src": "ar-EG-SalmaNeural/st-0003.speaker_f.d6bd7990.mp3",
+                  "ms": 2006,
+                  "words": [
+                    {
+                      "w": "كويسة،",
+                      "s": 15,
+                      "e": 665
+                    },
+                    {
+                      "w": "الحمد",
+                      "s": 865,
+                      "e": 1402
+                    },
+                    {
+                      "w": "لله.",
+                      "s": 1415,
+                      "e": 1928
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0004",
+      "island": "greetings",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "Thank you very much.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0004.ae6ddab8.mp3",
+              "ms": 1189,
+              "words": [
+                {
+                  "w": "Thank",
+                  "s": 19,
+                  "e": 269
+                },
+                {
+                  "w": "you",
+                  "s": 306,
+                  "e": 382
+                },
+                {
+                  "w": "very",
+                  "s": 394,
+                  "e": 606
+                },
+                {
+                  "w": "much.",
+                  "s": 632,
+                  "e": 956
+                }
+              ]
+            }
+          ]
+        },
+        "ar-EG": {
+          "text": "متشكر أوي.",
+          "translit": "mitshakkir awi.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "ar-EG-ShakirNeural",
+              "src": "ar-EG-ShakirNeural/st-0004.a1bdb265.mp3",
+              "ms": 1344,
+              "words": [
+                {
+                  "w": "متشكر",
+                  "s": 33,
+                  "e": 846
+                },
+                {
+                  "w": "أوي.",
+                  "s": 846,
+                  "e": 1258
+                }
+              ]
+            }
+          ],
+          "variants": {
+            "speaker_f": {
+              "text": "متشكرة أوي.",
+              "translit": "mitshakkira awi.",
+              "audio": [
+                {
+                  "voice": "ar-EG-SalmaNeural",
+                  "src": "ar-EG-SalmaNeural/st-0004.speaker_f.257451fc.mp3",
+                  "ms": 1529,
+                  "words": [
+                    {
+                      "w": "متشكرة",
+                      "s": 7,
+                      "e": 970
+                    },
+                    {
+                      "w": "أوي.",
+                      "s": 982,
+                      "e": 1432
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0005",
+      "island": "greetings",
+      "role": "hear",
+      "texts": {
+        "en": {
+          "text": "What is your name?",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0005.e53be793.mp3",
+              "ms": 1070,
+              "words": [
+                {
+                  "w": "What",
+                  "s": 11,
+                  "e": 261
+                },
+                {
+                  "w": "is",
+                  "s": 324,
+                  "e": 461
+                },
+                {
+                  "w": "your",
+                  "s": 486,
+                  "e": 586
+                },
+                {
+                  "w": "name?",
+                  "s": 624,
+                  "e": 874
+                }
+              ]
+            }
+          ]
+        },
+        "ar-EG": {
+          "text": "اسمك إيه؟",
+          "translit": "ismak eeh?",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "ar-EG-SalmaNeural",
+              "src": "ar-EG-SalmaNeural/st-0005.030573b3.mp3",
+              "ms": 1035,
+              "words": [
+                {
+                  "w": "اسمك",
+                  "s": 0,
+                  "e": 490
+                },
+                {
+                  "w": "إيه؟",
+                  "s": 502,
+                  "e": 928
+                }
+              ]
+            },
+            {
+              "voice": "ar-EG-ShakirNeural",
+              "src": "ar-EG-ShakirNeural/st-0005.124f1211.mp3",
+              "ms": 965,
+              "words": [
+                {
+                  "w": "اسمك",
+                  "s": 46,
+                  "e": 508
+                },
+                {
+                  "w": "إيه؟",
+                  "s": 508,
+                  "e": 870
+                }
+              ]
+            }
+          ],
+          "variants": {
+            "addressee_f": {
+              "text": "اسمك إيه؟",
+              "translit": "ismik eeh?",
+              "audio": [
+                {
+                  "voice": "ar-EG-SalmaNeural",
+                  "src": "ar-EG-SalmaNeural/st-0005.addressee_f.16420e54.mp3",
+                  "ms": 1046,
+                  "words": [
+                    {
+                      "w": "اسمك",
+                      "s": 7,
+                      "e": 507
+                    },
+                    {
+                      "w": "إيه؟",
+                      "s": 520,
+                      "e": 920
+                    }
+                  ]
+                },
+                {
+                  "voice": "ar-EG-ShakirNeural",
+                  "src": "ar-EG-ShakirNeural/st-0005.addressee_f.33f2ae7d.mp3",
+                  "ms": 948,
+                  "words": [
+                    {
+                      "w": "اسمك",
+                      "s": 37,
+                      "e": 500
+                    },
+                    {
+                      "w": "إيه؟",
+                      "s": 500,
+                      "e": 850
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0006",
+      "island": "greetings",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "My name is Ambi.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0006.59518e74.mp3",
+              "ms": 1202,
+              "words": [
+                {
+                  "w": "My",
+                  "s": 21,
+                  "e": 208
+                },
+                {
+                  "w": "name",
+                  "s": 271,
+                  "e": 458
+                },
+                {
+                  "w": "is",
+                  "s": 471,
+                  "e": 608
+                },
+                {
+                  "w": "Ambi.",
+                  "s": 671,
+                  "e": 984
+                }
+              ]
+            }
+          ]
+        },
+        "ar-EG": {
+          "text": "اسمي أمبي.",
+          "translit": "ismi Ambi.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "ar-EG-SalmaNeural",
+              "src": "ar-EG-SalmaNeural/st-0006.185d5597.mp3",
+              "ms": 1046,
+              "words": [
+                {
+                  "w": "اسمي",
+                  "s": 11,
+                  "e": 411
+                },
+                {
+                  "w": "أمبي.",
+                  "s": 424,
+                  "e": 948
+                }
+              ]
+            },
+            {
+              "voice": "ar-EG-ShakirNeural",
+              "src": "ar-EG-ShakirNeural/st-0006.7f7b97ff.mp3",
+              "ms": 1140,
+              "words": [
+                {
+                  "w": "اسمي",
+                  "s": 50,
+                  "e": 462
+                },
+                {
+                  "w": "أمبي.",
+                  "s": 462,
+                  "e": 1074
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0007",
+      "island": "basics",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "I don't understand.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0007.766417eb.mp3",
+              "ms": 1281,
+              "words": [
+                {
+                  "w": "I",
+                  "s": 3,
+                  "e": 153
+                },
+                {
+                  "w": "don't",
+                  "s": 228,
+                  "e": 453
+                },
+                {
+                  "w": "understand.",
+                  "s": 478,
+                  "e": 1066
+                }
+              ]
+            }
+          ]
+        },
+        "ar-EG": {
+          "text": "مش فاهم.",
+          "translit": "mish faahim.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "ar-EG-ShakirNeural",
+              "src": "ar-EG-ShakirNeural/st-0007.34cea5ce.mp3",
+              "ms": 1107,
+              "words": [
+                {
+                  "w": "مش",
+                  "s": 44,
+                  "e": 332
+                },
+                {
+                  "w": "فاهم.",
+                  "s": 332,
+                  "e": 1019
+                }
+              ]
+            }
+          ],
+          "variants": {
+            "speaker_f": {
+              "text": "مش فاهمة.",
+              "translit": "mish fahma.",
+              "audio": [
+                {
+                  "voice": "ar-EG-SalmaNeural",
+                  "src": "ar-EG-SalmaNeural/st-0007.speaker_f.5253cfc3.mp3",
+                  "ms": 1090,
+                  "words": [
+                    {
+                      "w": "مش",
+                      "s": 9,
+                      "e": 346
+                    },
+                    {
+                      "w": "فاهمة.",
+                      "s": 359,
+                      "e": 1009
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0008",
+      "island": "basics",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "Please say that again.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0008.868f20de.mp3",
+              "ms": 1243,
+              "words": [
+                {
+                  "w": "Please",
+                  "s": 31,
+                  "e": 281
+                },
+                {
+                  "w": "say",
+                  "s": 281,
+                  "e": 418
+                },
+                {
+                  "w": "that",
+                  "s": 481,
+                  "e": 656
+                },
+                {
+                  "w": "again.",
+                  "s": 656,
+                  "e": 1018
+                }
+              ]
+            }
+          ]
+        },
+        "ar-EG": {
+          "text": "لو سمحت، عيد تاني.",
+          "translit": "law samaht, ʿiid taani.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "ar-EG-SalmaNeural",
+              "src": "ar-EG-SalmaNeural/st-0008.703f7c7a.mp3",
+              "ms": 2229,
+              "words": [
+                {
+                  "w": "لو",
+                  "s": 6,
+                  "e": 256
+                },
+                {
+                  "w": "سمحت،",
+                  "s": 268,
+                  "e": 968
+                },
+                {
+                  "w": "عيد",
+                  "s": 1181,
+                  "e": 1581
+                },
+                {
+                  "w": "تاني.",
+                  "s": 1594,
+                  "e": 2144
+                }
+              ]
+            },
+            {
+              "voice": "ar-EG-ShakirNeural",
+              "src": "ar-EG-ShakirNeural/st-0008.466af022.mp3",
+              "ms": 2434,
+              "words": [
+                {
+                  "w": "لو",
+                  "s": 0,
+                  "e": 275
+                },
+                {
+                  "w": "سمحت،",
+                  "s": 275,
+                  "e": 775
+                },
+                {
+                  "w": "عيد",
+                  "s": 1375,
+                  "e": 1788
+                },
+                {
+                  "w": "تاني.",
+                  "s": 1788,
+                  "e": 2338
+                }
+              ]
+            }
+          ],
+          "variants": {
+            "addressee_f": {
+              "text": "لو سمحتي، عيدي تاني.",
+              "translit": "law samahti, ʿiidi taani.",
+              "audio": [
+                {
+                  "voice": "ar-EG-SalmaNeural",
+                  "src": "ar-EG-SalmaNeural/st-0008.addressee_f.0aaa2eec.mp3",
+                  "ms": 2398,
+                  "words": [
+                    {
+                      "w": "لو",
+                      "s": 19,
+                      "e": 282
+                    },
+                    {
+                      "w": "سمحتي،",
+                      "s": 294,
+                      "e": 1032
+                    },
+                    {
+                      "w": "عيدي",
+                      "s": 1282,
+                      "e": 1744
+                    },
+                    {
+                      "w": "تاني.",
+                      "s": 1756,
+                      "e": 2319
+                    }
+                  ]
+                },
+                {
+                  "voice": "ar-EG-ShakirNeural",
+                  "src": "ar-EG-ShakirNeural/st-0008.addressee_f.a969b5e2.mp3",
+                  "ms": 2454,
+                  "words": [
+                    {
+                      "w": "لو",
+                      "s": 1,
+                      "e": 276
+                    },
+                    {
+                      "w": "سمحتي،",
+                      "s": 276,
+                      "e": 988
+                    },
+                    {
+                      "w": "عيدي",
+                      "s": 1401,
+                      "e": 1788
+                    },
+                    {
+                      "w": "تاني.",
+                      "s": 1788,
+                      "e": 2364
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0009",
+      "island": "market",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "How much is this?",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0009.f6c2d45c.mp3",
+              "ms": 1181,
+              "words": [
+                {
+                  "w": "How",
+                  "s": 12,
+                  "e": 200
+                },
+                {
+                  "w": "much",
+                  "s": 237,
+                  "e": 412
+                },
+                {
+                  "w": "is",
+                  "s": 462,
+                  "e": 574
+                },
+                {
+                  "w": "this?",
+                  "s": 637,
+                  "e": 962
+                }
+              ]
+            }
+          ]
+        },
+        "ar-EG": {
+          "text": "ده بكام؟",
+          "translit": "da bikaam?",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "ar-EG-SalmaNeural",
+              "src": "ar-EG-SalmaNeural/st-0009.20d21ac1.mp3",
+              "ms": 1167,
+              "words": [
+                {
+                  "w": "ده",
+                  "s": 12,
+                  "e": 350
+                },
+                {
+                  "w": "بكام؟",
+                  "s": 362,
+                  "e": 1037
+                }
+              ]
+            },
+            {
+              "voice": "ar-EG-ShakirNeural",
+              "src": "ar-EG-ShakirNeural/st-0009.9e9336bb.mp3",
+              "ms": 1064,
+              "words": [
+                {
+                  "w": "ده",
+                  "s": 52,
+                  "e": 302
+                },
+                {
+                  "w": "بكام؟",
+                  "s": 302,
+                  "e": 952
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0010",
+      "island": "market",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "I want water.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0010.9801cd77.mp3",
+              "ms": 995,
+              "words": [
+                {
+                  "w": "I",
+                  "s": 0,
+                  "e": 160
+                },
+                {
+                  "w": "want",
+                  "s": 210,
+                  "e": 422
+                },
+                {
+                  "w": "water.",
+                  "s": 472,
+                  "e": 822
+                }
+              ]
+            }
+          ]
+        },
+        "ar-EG": {
+          "text": "أنا عايز مية.",
+          "translit": "ana ʿaayiz mayya.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "ar-EG-ShakirNeural",
+              "src": "ar-EG-ShakirNeural/st-0010.d10e0adb.mp3",
+              "ms": 1253,
+              "words": [
+                {
+                  "w": "أنا",
+                  "s": 48,
+                  "e": 274
+                },
+                {
+                  "w": "عايز",
+                  "s": 274,
+                  "e": 786
+                },
+                {
+                  "w": "مية.",
+                  "s": 786,
+                  "e": 1198
+                }
+              ]
+            }
+          ],
+          "variants": {
+            "speaker_f": {
+              "text": "أنا عايزة مية.",
+              "translit": "ana ʿayza mayya.",
+              "audio": [
+                {
+                  "voice": "ar-EG-SalmaNeural",
+                  "src": "ar-EG-SalmaNeural/st-0010.speaker_f.23fd7c1b.mp3",
+                  "ms": 1293,
+                  "words": [
+                    {
+                      "w": "أنا",
+                      "s": 18,
+                      "e": 343
+                    },
+                    {
+                      "w": "عايزة",
+                      "s": 356,
+                      "e": 743
+                    },
+                    {
+                      "w": "مية.",
+                      "s": 756,
+                      "e": 1168
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0011",
+      "island": "around",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "Where is the toilet?",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0011.5f996832.mp3",
+              "ms": 1370,
+              "words": [
+                {
+                  "w": "Where",
+                  "s": 12,
+                  "e": 287
+                },
+                {
+                  "w": "is",
+                  "s": 374,
+                  "e": 512
+                },
+                {
+                  "w": "the",
+                  "s": 550,
+                  "e": 624
+                },
+                {
+                  "w": "toilet?",
+                  "s": 700,
+                  "e": 1087
+                }
+              ]
+            }
+          ]
+        },
+        "ar-EG": {
+          "text": "الحمام فين؟",
+          "translit": "il-hammaam feen?",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "ar-EG-SalmaNeural",
+              "src": "ar-EG-SalmaNeural/st-0011.2cd83857.mp3",
+              "ms": 1458,
+              "words": [
+                {
+                  "w": "الحمام",
+                  "s": 18,
+                  "e": 743
+                },
+                {
+                  "w": "فين؟",
+                  "s": 756,
+                  "e": 1343
+                }
+              ]
+            },
+            {
+              "voice": "ar-EG-ShakirNeural",
+              "src": "ar-EG-ShakirNeural/st-0011.4598c3f9.mp3",
+              "ms": 1365,
+              "words": [
+                {
+                  "w": "الحمام",
+                  "s": 50,
+                  "e": 688
+                },
+                {
+                  "w": "فين؟",
+                  "s": 688,
+                  "e": 1313
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0012",
+      "island": "basics",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "I'm learning Arabic.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0012.ddea394a.mp3",
+              "ms": 1329,
+              "words": [
+                {
+                  "w": "I'm",
+                  "s": 9,
+                  "e": 234
+                },
+                {
+                  "w": "learning",
+                  "s": 246,
+                  "e": 596
+                },
+                {
+                  "w": "Arabic.",
+                  "s": 622,
+                  "e": 1084
+                }
+              ]
+            }
+          ]
+        },
+        "ar-EG": {
+          "text": "أنا بتعلم عربي.",
+          "translit": "ana batʿallim ʿarabi.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "ar-EG-SalmaNeural",
+              "src": "ar-EG-SalmaNeural/st-0012.fcfbfc3e.mp3",
+              "ms": 1706,
+              "words": [
+                {
+                  "w": "أنا",
+                  "s": 9,
+                  "e": 322
+                },
+                {
+                  "w": "بتعلم",
+                  "s": 334,
+                  "e": 996
+                },
+                {
+                  "w": "عربي.",
+                  "s": 1009,
+                  "e": 1596
+                }
+              ]
+            },
+            {
+              "voice": "ar-EG-ShakirNeural",
+              "src": "ar-EG-ShakirNeural/st-0012.2928894d.mp3",
+              "ms": 1596,
+              "words": [
+                {
+                  "w": "أنا",
+                  "s": 39,
+                  "e": 289
+                },
+                {
+                  "w": "بتعلم",
+                  "s": 289,
+                  "e": 902
+                },
+                {
+                  "w": "عربي.",
+                  "s": 902,
+                  "e": 1576
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "ar-dlg-01-t01",
+      "island": "market",
+      "role": "hear",
+      "texts": {
+        "en": {
+          "text": "Welcome.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/ar-dlg-01-t01.c10f986e.mp3",
+              "ms": 689,
+              "words": [
+                {
+                  "w": "Welcome.",
+                  "s": 20,
+                  "e": 545
+                }
+              ]
+            }
+          ]
+        },
+        "ar-EG": {
+          "text": "أهلا وسهلا.",
+          "translit": "ahlan wa sahlan.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "ar-EG-SalmaNeural",
+              "src": "ar-EG-SalmaNeural/ar-dlg-01-t01.ae77af1a.mp3",
+              "ms": 1254,
+              "words": [
+                {
+                  "w": "أهلا",
+                  "s": 0,
+                  "e": 406
+                },
+                {
+                  "w": "وسهلا.",
+                  "s": 419,
+                  "e": 1182
+                }
+              ]
+            },
+            {
+              "voice": "ar-EG-ShakirNeural",
+              "src": "ar-EG-ShakirNeural/ar-dlg-01-t01.7dbef366.mp3",
+              "ms": 1271,
+              "words": [
+                {
+                  "w": "أهلا",
+                  "s": 40,
+                  "e": 428
+                },
+                {
+                  "w": "وسهلا.",
+                  "s": 428,
+                  "e": 1190
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "tags": [
+        "dialogue"
+      ]
+    },
+    {
+      "id": "ar-dlg-01-t03",
+      "island": "market",
+      "role": "hear",
+      "texts": {
+        "en": {
+          "text": "Sure.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/ar-dlg-01-t03.2d08feea.mp3",
+              "ms": 565,
+              "words": [
+                {
+                  "w": "Sure.",
+                  "s": 16,
+                  "e": 354
+                }
+              ]
+            }
+          ]
+        },
+        "ar-EG": {
+          "text": "حاضر.",
+          "translit": "haadir.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "ar-EG-SalmaNeural",
+              "src": "ar-EG-SalmaNeural/ar-dlg-01-t03.226ec141.mp3",
+              "ms": 836,
+              "words": [
+                {
+                  "w": "حاضر.",
+                  "s": 0,
+                  "e": 817
+                }
+              ]
+            },
+            {
+              "voice": "ar-EG-ShakirNeural",
+              "src": "ar-EG-ShakirNeural/ar-dlg-01-t03.b986fe70.mp3",
+              "ms": 962,
+              "words": [
+                {
+                  "w": "حاضر.",
+                  "s": 0,
+                  "e": 932
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "tags": [
+        "dialogue"
+      ]
+    },
+    {
+      "id": "ar-dlg-01-t05",
+      "island": "market",
+      "role": "hear",
+      "texts": {
+        "en": {
+          "text": "Ten pounds.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/ar-dlg-01-t05.b304b8b9.mp3",
+              "ms": 884,
+              "words": [
+                {
+                  "w": "Ten",
+                  "s": 33,
+                  "e": 233
+                },
+                {
+                  "w": "pounds.",
+                  "s": 296,
+                  "e": 720
+                }
+              ]
+            }
+          ]
+        },
+        "ar-EG": {
+          "text": "بعشرة جنيه.",
+          "translit": "bi-ʿashara gineeh.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "ar-EG-SalmaNeural",
+              "src": "ar-EG-SalmaNeural/ar-dlg-01-t05.37f22f4e.mp3",
+              "ms": 1425,
+              "words": [
+                {
+                  "w": "بعشرة",
+                  "s": 1,
+                  "e": 764
+                },
+                {
+                  "w": "جنيه.",
+                  "s": 776,
+                  "e": 1338
+                }
+              ]
+            },
+            {
+              "voice": "ar-EG-ShakirNeural",
+              "src": "ar-EG-ShakirNeural/ar-dlg-01-t05.fbe0a1d4.mp3",
+              "ms": 1370,
+              "words": [
+                {
+                  "w": "بعشرة",
+                  "s": 3,
+                  "e": 740
+                },
+                {
+                  "w": "جنيه.",
+                  "s": 740,
+                  "e": 1366
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "tags": [
+        "dialogue"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "ar-dlg-01",
+      "island": "market",
+      "title": {
+        "en": "At the kiosk",
+        "ar-EG": "في الكشك"
+      },
+      "turns": [
+        {
+          "speaker": "them",
+          "thought": "ar-dlg-01-t01"
+        },
+        {
+          "speaker": "you",
+          "thought": "st-0010"
+        },
+        {
+          "speaker": "them",
+          "thought": "ar-dlg-01-t03"
+        },
+        {
+          "speaker": "you",
+          "thought": "st-0009"
+        },
+        {
+          "speaker": "them",
+          "thought": "ar-dlg-01-t05"
+        },
+        {
+          "speaker": "you",
+          "thought": "st-0004"
+        }
+      ],
+      "place": "kiosk"
+    }
+  ],
+  "places": [
+    {
+      "id": "kiosk",
+      "name": {
+        "en": "Kiosk",
+        "ar-EG": "الكشك"
+      },
+      "blurb": {
+        "en": "Buying water and asking the price."
+      },
+      "order": 1,
+      "island": "market",
+      "dialogues": [
+        "ar-dlg-01"
+      ]
+    }
+  ],
+  "proverbs": [
+    {
+      "id": "ar-pv-001",
+      "lang": "ar-EG",
+      "text": "الصبر مفتاح الفرج.",
+      "translit": "is-sabr muftaah il-farag.",
+      "meaning": {
+        "en": "Patience is what opens the way out."
+      },
+      "literal": "patience is the key to relief",
+      "theme": "patience",
+      "audio": [
+        {
+          "voice": "ar-EG-SalmaNeural",
+          "src": "proverbs/ar-pv-001.01caa48d.mp3",
+          "ms": 1680,
+          "words": [
+            {
+              "w": "الصبر",
+              "s": 0,
+              "e": 518
+            },
+            {
+              "w": "مفتاح",
+              "s": 530,
+              "e": 980
+            },
+            {
+              "w": "الفرج.",
+              "s": 992,
+              "e": 1568
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "voices": [
+    {
+      "id": "ar-EG-SalmaNeural",
+      "lang": "ar-EG",
+      "label": "Salma (Egypt, female)",
+      "gender": "female"
+    },
+    {
+      "id": "ar-EG-ShakirNeural",
+      "lang": "ar-EG",
+      "label": "Shakir (Egypt, male)",
+      "gender": "male"
+    },
+    {
+      "id": "en-KE-ChilembaNeural",
+      "lang": "en",
+      "label": "Chilemba (Kenya, male)",
+      "gender": "male"
+    }
+  ]
+}

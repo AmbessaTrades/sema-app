@@ -1,0 +1,1681 @@
+{
+  "format": "sema-pack@2",
+  "id": "am-fixture",
+  "title": "Amharic · fixture (12 lines)",
+  "version": "1",
+  "base": "en",
+  "targets": [
+    "am"
+  ],
+  "lang": {
+    "code": "am",
+    "script": "Ethi",
+    "dir": "ltr",
+    "font": "ethi"
+  },
+  "audioBase": "./packs/am-fixture/audio/",
+  "islands": [
+    {
+      "id": "greetings",
+      "name": {
+        "en": "Greetings"
+      },
+      "order": 1,
+      "blurb": {
+        "en": "Hello, how are you, and your name."
+      },
+      "hue": 38
+    },
+    {
+      "id": "basics",
+      "name": {
+        "en": "When you don't understand"
+      },
+      "order": 2,
+      "blurb": {
+        "en": "Asking again, and saying you are learning."
+      },
+      "hue": 200
+    },
+    {
+      "id": "market",
+      "name": {
+        "en": "Buying"
+      },
+      "order": 3,
+      "blurb": {
+        "en": "What you want, and how much it is."
+      },
+      "hue": 150
+    },
+    {
+      "id": "around",
+      "name": {
+        "en": "Getting around"
+      },
+      "order": 4,
+      "blurb": {
+        "en": "Finding the way."
+      },
+      "hue": 280
+    }
+  ],
+  "thoughts": [
+    {
+      "id": "st-0001",
+      "island": "greetings",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "Good morning.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0001.639a531b.mp3",
+              "ms": 875,
+              "words": [
+                {
+                  "w": "Good",
+                  "s": 28,
+                  "e": 303
+                },
+                {
+                  "w": "morning.",
+                  "s": 340,
+                  "e": 740
+                }
+              ]
+            }
+          ]
+        },
+        "am": {
+          "text": "እንደምን አደርክ?",
+          "translit": "indemin aderk?",
+          "note": "Literally: how did you spend the night?",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "am-ET-MekdesNeural",
+              "src": "am-ET-MekdesNeural/st-0001.82e9db76.mp3",
+              "ms": 1021,
+              "words": [
+                {
+                  "w": "እንደምን",
+                  "s": 0,
+                  "e": 398
+                },
+                {
+                  "w": "አደርክ?",
+                  "s": 424,
+                  "e": 786
+                }
+              ]
+            },
+            {
+              "voice": "am-ET-AmehaNeural",
+              "src": "am-ET-AmehaNeural/st-0001.5dc3e1d8.mp3",
+              "ms": 1064,
+              "words": [
+                {
+                  "w": "እንደምን",
+                  "s": 0,
+                  "e": 419
+                },
+                {
+                  "w": "አደርክ?",
+                  "s": 444,
+                  "e": 844
+                }
+              ]
+            }
+          ],
+          "variants": {
+            "addressee_f": {
+              "text": "እንደምን አደርሽ?",
+              "translit": "indemin adersh?",
+              "audio": [
+                {
+                  "voice": "am-ET-MekdesNeural",
+                  "src": "am-ET-MekdesNeural/st-0001.addressee_f.e55281b3.mp3",
+                  "ms": 1060,
+                  "words": [
+                    {
+                      "w": "እንደምን",
+                      "s": 0,
+                      "e": 404
+                    },
+                    {
+                      "w": "አደርሽ?",
+                      "s": 428,
+                      "e": 816
+                    }
+                  ]
+                },
+                {
+                  "voice": "am-ET-AmehaNeural",
+                  "src": "am-ET-AmehaNeural/st-0001.addressee_f.a8bc4a04.mp3",
+                  "ms": 1116,
+                  "words": [
+                    {
+                      "w": "እንደምን",
+                      "s": 0,
+                      "e": 420
+                    },
+                    {
+                      "w": "አደርሽ?",
+                      "s": 445,
+                      "e": 858
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0002",
+      "island": "greetings",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "How are you?",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0002.2398abd1.mp3",
+              "ms": 806,
+              "words": [
+                {
+                  "w": "How",
+                  "s": 9,
+                  "e": 246
+                },
+                {
+                  "w": "are",
+                  "s": 246,
+                  "e": 409
+                },
+                {
+                  "w": "you?",
+                  "s": 434,
+                  "e": 546
+                }
+              ]
+            }
+          ]
+        },
+        "am": {
+          "text": "እንደምን ነህ?",
+          "translit": "indemin neh?",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "am-ET-MekdesNeural",
+              "src": "am-ET-MekdesNeural/st-0002.a678362f.mp3",
+              "ms": 798,
+              "words": [
+                {
+                  "w": "እንደምን",
+                  "s": 0,
+                  "e": 394
+                },
+                {
+                  "w": "ነህ?",
+                  "s": 419,
+                  "e": 582
+                }
+              ]
+            },
+            {
+              "voice": "am-ET-AmehaNeural",
+              "src": "am-ET-AmehaNeural/st-0002.ef4a3300.mp3",
+              "ms": 886,
+              "words": [
+                {
+                  "w": "እንደምን",
+                  "s": 0,
+                  "e": 442
+                },
+                {
+                  "w": "ነህ?",
+                  "s": 480,
+                  "e": 668
+                }
+              ]
+            }
+          ],
+          "variants": {
+            "addressee_f": {
+              "text": "እንደምን ነሽ?",
+              "translit": "indemin nesh?",
+              "audio": [
+                {
+                  "voice": "am-ET-MekdesNeural",
+                  "src": "am-ET-MekdesNeural/st-0002.addressee_f.f98db3b5.mp3",
+                  "ms": 878,
+                  "words": [
+                    {
+                      "w": "እንደምን",
+                      "s": 0,
+                      "e": 396
+                    },
+                    {
+                      "w": "ነሽ?",
+                      "s": 421,
+                      "e": 634
+                    }
+                  ]
+                },
+                {
+                  "voice": "am-ET-AmehaNeural",
+                  "src": "am-ET-AmehaNeural/st-0002.addressee_f.d0b51004.mp3",
+                  "ms": 939,
+                  "words": [
+                    {
+                      "w": "እንደምን",
+                      "s": 0,
+                      "e": 420
+                    },
+                    {
+                      "w": "ነሽ?",
+                      "s": 445,
+                      "e": 658
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0003",
+      "island": "greetings",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "I'm fine, thank God.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0003.6eb7edf4.mp3",
+              "ms": 1570,
+              "words": [
+                {
+                  "w": "I'm",
+                  "s": 18,
+                  "e": 256
+                },
+                {
+                  "w": "fine,",
+                  "s": 256,
+                  "e": 568
+                },
+                {
+                  "w": "thank",
+                  "s": 818,
+                  "e": 1030
+                },
+                {
+                  "w": "God.",
+                  "s": 1130,
+                  "e": 1356
+                }
+              ]
+            }
+          ]
+        },
+        "am": {
+          "text": "ደህና ነኝ፣ እግዚአብሔር ይመስገን።",
+          "translit": "dehna negn, igziabher yimesgen.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "am-ET-MekdesNeural",
+              "src": "am-ET-MekdesNeural/st-0003.9bef8c1a.mp3",
+              "ms": 1836,
+              "words": [
+                {
+                  "w": "ደህና",
+                  "s": 6,
+                  "e": 306
+                },
+                {
+                  "w": "ነኝ፣",
+                  "s": 406,
+                  "e": 569
+                },
+                {
+                  "w": "እግዚአብሔር",
+                  "s": 594,
+                  "e": 1119
+                },
+                {
+                  "w": "ይመስገን።",
+                  "s": 1132,
+                  "e": 1594
+                }
+              ]
+            },
+            {
+              "voice": "am-ET-AmehaNeural",
+              "src": "am-ET-AmehaNeural/st-0003.eca4f050.mp3",
+              "ms": 1871,
+              "words": [
+                {
+                  "w": "ደህና",
+                  "s": 1,
+                  "e": 314
+                },
+                {
+                  "w": "ነኝ፣",
+                  "s": 438,
+                  "e": 626
+                },
+                {
+                  "w": "እግዚአብሔር",
+                  "s": 664,
+                  "e": 1151
+                },
+                {
+                  "w": "ይመስገን።",
+                  "s": 1164,
+                  "e": 1626
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0004",
+      "island": "greetings",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "Thank you very much.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0004.ae6ddab8.mp3",
+              "ms": 1189,
+              "words": [
+                {
+                  "w": "Thank",
+                  "s": 19,
+                  "e": 269
+                },
+                {
+                  "w": "you",
+                  "s": 306,
+                  "e": 382
+                },
+                {
+                  "w": "very",
+                  "s": 394,
+                  "e": 606
+                },
+                {
+                  "w": "much.",
+                  "s": 632,
+                  "e": 956
+                }
+              ]
+            }
+          ]
+        },
+        "am": {
+          "text": "በጣም አመሰግናለሁ።",
+          "translit": "betam ameseginalehu.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "am-ET-MekdesNeural",
+              "src": "am-ET-MekdesNeural/st-0004.fe2d4a21.mp3",
+              "ms": 1319,
+              "words": [
+                {
+                  "w": "በጣም",
+                  "s": 4,
+                  "e": 341
+                },
+                {
+                  "w": "አመሰግናለሁ።",
+                  "s": 366,
+                  "e": 1116
+                }
+              ]
+            },
+            {
+              "voice": "am-ET-AmehaNeural",
+              "src": "am-ET-AmehaNeural/st-0004.7ebf896d.mp3",
+              "ms": 1320,
+              "words": [
+                {
+                  "w": "በጣም",
+                  "s": 7,
+                  "e": 332
+                },
+                {
+                  "w": "አመሰግናለሁ።",
+                  "s": 370,
+                  "e": 1094
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0005",
+      "island": "greetings",
+      "role": "hear",
+      "texts": {
+        "en": {
+          "text": "What is your name?",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0005.e53be793.mp3",
+              "ms": 1070,
+              "words": [
+                {
+                  "w": "What",
+                  "s": 11,
+                  "e": 261
+                },
+                {
+                  "w": "is",
+                  "s": 324,
+                  "e": 461
+                },
+                {
+                  "w": "your",
+                  "s": 486,
+                  "e": 586
+                },
+                {
+                  "w": "name?",
+                  "s": 624,
+                  "e": 874
+                }
+              ]
+            }
+          ]
+        },
+        "am": {
+          "text": "ስምህ ማን ነው?",
+          "translit": "simih man new?",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "am-ET-MekdesNeural",
+              "src": "am-ET-MekdesNeural/st-0005.5498b8a5.mp3",
+              "ms": 996,
+              "words": [
+                {
+                  "w": "ስምህ",
+                  "s": 0,
+                  "e": 345
+                },
+                {
+                  "w": "ማን",
+                  "s": 358,
+                  "e": 570
+                },
+                {
+                  "w": "ነው?",
+                  "s": 595,
+                  "e": 745
+                }
+              ]
+            },
+            {
+              "voice": "am-ET-AmehaNeural",
+              "src": "am-ET-AmehaNeural/st-0005.0f18b383.mp3",
+              "ms": 986,
+              "words": [
+                {
+                  "w": "ስምህ",
+                  "s": 25,
+                  "e": 338
+                },
+                {
+                  "w": "ማን",
+                  "s": 375,
+                  "e": 575
+                },
+                {
+                  "w": "ነው?",
+                  "s": 600,
+                  "e": 750
+                }
+              ]
+            }
+          ],
+          "variants": {
+            "addressee_f": {
+              "text": "ስምሽ ማን ነው?",
+              "translit": "simish man new?",
+              "audio": [
+                {
+                  "voice": "am-ET-MekdesNeural",
+                  "src": "am-ET-MekdesNeural/st-0005.addressee_f.3a742306.mp3",
+                  "ms": 1061,
+                  "words": [
+                    {
+                      "w": "ስምሽ",
+                      "s": 0,
+                      "e": 374
+                    },
+                    {
+                      "w": "ማን",
+                      "s": 424,
+                      "e": 636
+                    },
+                    {
+                      "w": "ነው?",
+                      "s": 662,
+                      "e": 812
+                    }
+                  ]
+                },
+                {
+                  "voice": "am-ET-AmehaNeural",
+                  "src": "am-ET-AmehaNeural/st-0005.addressee_f.14f3299a.mp3",
+                  "ms": 1058,
+                  "words": [
+                    {
+                      "w": "ስምሽ",
+                      "s": 31,
+                      "e": 368
+                    },
+                    {
+                      "w": "ማን",
+                      "s": 444,
+                      "e": 644
+                    },
+                    {
+                      "w": "ነው?",
+                      "s": 668,
+                      "e": 818
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0006",
+      "island": "greetings",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "My name is Ambi.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0006.59518e74.mp3",
+              "ms": 1202,
+              "words": [
+                {
+                  "w": "My",
+                  "s": 21,
+                  "e": 208
+                },
+                {
+                  "w": "name",
+                  "s": 271,
+                  "e": 458
+                },
+                {
+                  "w": "is",
+                  "s": 471,
+                  "e": 608
+                },
+                {
+                  "w": "Ambi.",
+                  "s": 671,
+                  "e": 984
+                }
+              ]
+            }
+          ]
+        },
+        "am": {
+          "text": "ስሜ አምቢ ነው።",
+          "translit": "sime Ambi new.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "am-ET-MekdesNeural",
+              "src": "am-ET-MekdesNeural/st-0006.b8c0355f.mp3",
+              "ms": 1052,
+              "words": [
+                {
+                  "w": "ስሜ",
+                  "s": 4,
+                  "e": 254
+                },
+                {
+                  "w": "አምቢ",
+                  "s": 329,
+                  "e": 604
+                },
+                {
+                  "w": "ነው።",
+                  "s": 666,
+                  "e": 816
+                }
+              ]
+            },
+            {
+              "voice": "am-ET-AmehaNeural",
+              "src": "am-ET-AmehaNeural/st-0006.26168413.mp3",
+              "ms": 1051,
+              "words": [
+                {
+                  "w": "ስሜ",
+                  "s": 27,
+                  "e": 264
+                },
+                {
+                  "w": "አምቢ",
+                  "s": 364,
+                  "e": 627
+                },
+                {
+                  "w": "ነው።",
+                  "s": 690,
+                  "e": 827
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0007",
+      "island": "basics",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "I don't understand.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0007.766417eb.mp3",
+              "ms": 1281,
+              "words": [
+                {
+                  "w": "I",
+                  "s": 3,
+                  "e": 153
+                },
+                {
+                  "w": "don't",
+                  "s": 228,
+                  "e": 453
+                },
+                {
+                  "w": "understand.",
+                  "s": 478,
+                  "e": 1066
+                }
+              ]
+            }
+          ]
+        },
+        "am": {
+          "text": "አልገባኝም።",
+          "translit": "algebagnim.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "am-ET-MekdesNeural",
+              "src": "am-ET-MekdesNeural/st-0007.79224932.mp3",
+              "ms": 835,
+              "words": [
+                {
+                  "w": "አልገባኝም።",
+                  "s": 0,
+                  "e": 608
+                }
+              ]
+            },
+            {
+              "voice": "am-ET-AmehaNeural",
+              "src": "am-ET-AmehaNeural/st-0007.d5ae3de2.mp3",
+              "ms": 895,
+              "words": [
+                {
+                  "w": "አልገባኝም።",
+                  "s": 0,
+                  "e": 638
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0008",
+      "island": "basics",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "Please say that again.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0008.868f20de.mp3",
+              "ms": 1243,
+              "words": [
+                {
+                  "w": "Please",
+                  "s": 31,
+                  "e": 281
+                },
+                {
+                  "w": "say",
+                  "s": 281,
+                  "e": 418
+                },
+                {
+                  "w": "that",
+                  "s": 481,
+                  "e": 656
+                },
+                {
+                  "w": "again.",
+                  "s": 656,
+                  "e": 1018
+                }
+              ]
+            }
+          ]
+        },
+        "am": {
+          "text": "እባክህ ድገመው።",
+          "translit": "ibakih digemew.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "am-ET-MekdesNeural",
+              "src": "am-ET-MekdesNeural/st-0008.76e9bf85.mp3",
+              "ms": 1060,
+              "words": [
+                {
+                  "w": "እባክህ",
+                  "s": 0,
+                  "e": 416
+                },
+                {
+                  "w": "ድገመው።",
+                  "s": 429,
+                  "e": 842
+                }
+              ]
+            },
+            {
+              "voice": "am-ET-AmehaNeural",
+              "src": "am-ET-AmehaNeural/st-0008.92b29faf.mp3",
+              "ms": 1144,
+              "words": [
+                {
+                  "w": "እባክህ",
+                  "s": 0,
+                  "e": 407
+                },
+                {
+                  "w": "ድገመው።",
+                  "s": 432,
+                  "e": 882
+                }
+              ]
+            }
+          ],
+          "variants": {
+            "addressee_f": {
+              "text": "እባክሽ ድገሚው።",
+              "translit": "ibakish digemiw.",
+              "audio": [
+                {
+                  "voice": "am-ET-MekdesNeural",
+                  "src": "am-ET-MekdesNeural/st-0008.addressee_f.40216bdb.mp3",
+                  "ms": 1103,
+                  "words": [
+                    {
+                      "w": "እባክሽ",
+                      "s": 0,
+                      "e": 404
+                    },
+                    {
+                      "w": "ድገሚው።",
+                      "s": 442,
+                      "e": 879
+                    }
+                  ]
+                },
+                {
+                  "voice": "am-ET-AmehaNeural",
+                  "src": "am-ET-AmehaNeural/st-0008.addressee_f.a828509e.mp3",
+                  "ms": 1136,
+                  "words": [
+                    {
+                      "w": "እባክሽ",
+                      "s": 0,
+                      "e": 410
+                    },
+                    {
+                      "w": "ድገሚው።",
+                      "s": 447,
+                      "e": 884
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0009",
+      "island": "market",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "How much is this?",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0009.f6c2d45c.mp3",
+              "ms": 1181,
+              "words": [
+                {
+                  "w": "How",
+                  "s": 12,
+                  "e": 200
+                },
+                {
+                  "w": "much",
+                  "s": 237,
+                  "e": 412
+                },
+                {
+                  "w": "is",
+                  "s": 462,
+                  "e": 574
+                },
+                {
+                  "w": "this?",
+                  "s": 637,
+                  "e": 962
+                }
+              ]
+            }
+          ]
+        },
+        "am": {
+          "text": "ይሄ ስንት ነው?",
+          "translit": "yihe sint new?",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "am-ET-MekdesNeural",
+              "src": "am-ET-MekdesNeural/st-0009.70265b1b.mp3",
+              "ms": 980,
+              "words": [
+                {
+                  "w": "ይሄ",
+                  "s": 0,
+                  "e": 178
+                },
+                {
+                  "w": "ስንት",
+                  "s": 254,
+                  "e": 554
+                },
+                {
+                  "w": "ነው?",
+                  "s": 578,
+                  "e": 728
+                }
+              ]
+            },
+            {
+              "voice": "am-ET-AmehaNeural",
+              "src": "am-ET-AmehaNeural/st-0009.c8fc6c2d.mp3",
+              "ms": 1045,
+              "words": [
+                {
+                  "w": "ይሄ",
+                  "s": 1,
+                  "e": 201
+                },
+                {
+                  "w": "ስንት",
+                  "s": 314,
+                  "e": 614
+                },
+                {
+                  "w": "ነው?",
+                  "s": 638,
+                  "e": 814
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0010",
+      "island": "market",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "I want water.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0010.9801cd77.mp3",
+              "ms": 995,
+              "words": [
+                {
+                  "w": "I",
+                  "s": 0,
+                  "e": 160
+                },
+                {
+                  "w": "want",
+                  "s": 210,
+                  "e": 422
+                },
+                {
+                  "w": "water.",
+                  "s": 472,
+                  "e": 822
+                }
+              ]
+            }
+          ]
+        },
+        "am": {
+          "text": "ውሃ እፈልጋለሁ።",
+          "translit": "wiha ifeligalehu.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "am-ET-MekdesNeural",
+              "src": "am-ET-MekdesNeural/st-0010.366af877.mp3",
+              "ms": 1058,
+              "words": [
+                {
+                  "w": "ውሃ",
+                  "s": 8,
+                  "e": 183
+                },
+                {
+                  "w": "እፈልጋለሁ።",
+                  "s": 283,
+                  "e": 858
+                }
+              ]
+            },
+            {
+              "voice": "am-ET-AmehaNeural",
+              "src": "am-ET-AmehaNeural/st-0010.f16b2b3f.mp3",
+              "ms": 1103,
+              "words": [
+                {
+                  "w": "ውሃ",
+                  "s": 0,
+                  "e": 180
+                },
+                {
+                  "w": "እፈልጋለሁ።",
+                  "s": 292,
+                  "e": 867
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0011",
+      "island": "around",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "Where is the toilet?",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0011.5f996832.mp3",
+              "ms": 1370,
+              "words": [
+                {
+                  "w": "Where",
+                  "s": 12,
+                  "e": 287
+                },
+                {
+                  "w": "is",
+                  "s": 374,
+                  "e": 512
+                },
+                {
+                  "w": "the",
+                  "s": 550,
+                  "e": 624
+                },
+                {
+                  "w": "toilet?",
+                  "s": 700,
+                  "e": 1087
+                }
+              ]
+            }
+          ]
+        },
+        "am": {
+          "text": "ሽንት ቤት የት ነው?",
+          "translit": "shint bet yet new?",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "am-ET-MekdesNeural",
+              "src": "am-ET-MekdesNeural/st-0011.b7009237.mp3",
+              "ms": 1133,
+              "words": [
+                {
+                  "w": "ሽንት",
+                  "s": 0,
+                  "e": 326
+                },
+                {
+                  "w": "ቤት",
+                  "s": 352,
+                  "e": 552
+                },
+                {
+                  "w": "የት",
+                  "s": 564,
+                  "e": 714
+                },
+                {
+                  "w": "ነው?",
+                  "s": 752,
+                  "e": 902
+                }
+              ]
+            },
+            {
+              "voice": "am-ET-AmehaNeural",
+              "src": "am-ET-AmehaNeural/st-0011.43ca0872.mp3",
+              "ms": 1199,
+              "words": [
+                {
+                  "w": "ሽንት",
+                  "s": 16,
+                  "e": 304
+                },
+                {
+                  "w": "ቤት",
+                  "s": 366,
+                  "e": 579
+                },
+                {
+                  "w": "የት",
+                  "s": 592,
+                  "e": 754
+                },
+                {
+                  "w": "ነው?",
+                  "s": 792,
+                  "e": 942
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "st-0012",
+      "island": "basics",
+      "role": "say",
+      "texts": {
+        "en": {
+          "text": "I'm learning Amharic.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/st-0012.c081939a.mp3",
+              "ms": 1322,
+              "words": [
+                {
+                  "w": "I'm",
+                  "s": 10,
+                  "e": 222
+                },
+                {
+                  "w": "learning",
+                  "s": 235,
+                  "e": 548
+                },
+                {
+                  "w": "Amharic.",
+                  "s": 548,
+                  "e": 1085
+                }
+              ]
+            }
+          ]
+        },
+        "am": {
+          "text": "አማርኛ እየተማርኩ ነው።",
+          "translit": "amarigna iyetemarku new.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "am-ET-MekdesNeural",
+              "src": "am-ET-MekdesNeural/st-0012.1eac4725.mp3",
+              "ms": 1456,
+              "words": [
+                {
+                  "w": "አማርኛ",
+                  "s": 0,
+                  "e": 436
+                },
+                {
+                  "w": "እየተማርኩ",
+                  "s": 536,
+                  "e": 1060
+                },
+                {
+                  "w": "ነው።",
+                  "s": 1123,
+                  "e": 1260
+                }
+              ]
+            },
+            {
+              "voice": "am-ET-AmehaNeural",
+              "src": "am-ET-AmehaNeural/st-0012.eaa94ed4.mp3",
+              "ms": 1514,
+              "words": [
+                {
+                  "w": "አማርኛ",
+                  "s": 0,
+                  "e": 417
+                },
+                {
+                  "w": "እየተማርኩ",
+                  "s": 530,
+                  "e": 1092
+                },
+                {
+                  "w": "ነው።",
+                  "s": 1154,
+                  "e": 1267
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "core": true
+    },
+    {
+      "id": "am-dlg-01-t01",
+      "island": "market",
+      "role": "hear",
+      "texts": {
+        "en": {
+          "text": "Hello, what would you like?",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/am-dlg-01-t01.04b14b64.mp3",
+              "ms": 1601,
+              "words": [
+                {
+                  "w": "Hello,",
+                  "s": 0,
+                  "e": 362
+                },
+                {
+                  "w": "what",
+                  "s": 549,
+                  "e": 724
+                },
+                {
+                  "w": "would",
+                  "s": 786,
+                  "e": 936
+                },
+                {
+                  "w": "you",
+                  "s": 962,
+                  "e": 1074
+                },
+                {
+                  "w": "like?",
+                  "s": 1086,
+                  "e": 1324
+                }
+              ]
+            }
+          ]
+        },
+        "am": {
+          "text": "ሰላም፣ ምን ይፈልጋሉ?",
+          "translit": "selam, min yifeligalu?",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "am-ET-MekdesNeural",
+              "src": "am-ET-MekdesNeural/am-dlg-01-t01.62f3b28d.mp3",
+              "ms": 1370,
+              "words": [
+                {
+                  "w": "ሰላም፣",
+                  "s": 7,
+                  "e": 407
+                },
+                {
+                  "w": "ምን",
+                  "s": 420,
+                  "e": 570
+                },
+                {
+                  "w": "ይፈልጋሉ?",
+                  "s": 582,
+                  "e": 1120
+                }
+              ]
+            },
+            {
+              "voice": "am-ET-AmehaNeural",
+              "src": "am-ET-AmehaNeural/am-dlg-01-t01.060f1a3d.mp3",
+              "ms": 1406,
+              "words": [
+                {
+                  "w": "ሰላም፣",
+                  "s": 0,
+                  "e": 388
+                },
+                {
+                  "w": "ምን",
+                  "s": 413,
+                  "e": 588
+                },
+                {
+                  "w": "ይፈልጋሉ?",
+                  "s": 600,
+                  "e": 1113
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "tags": [
+        "dialogue"
+      ]
+    },
+    {
+      "id": "am-dlg-01-t03",
+      "island": "market",
+      "role": "hear",
+      "texts": {
+        "en": {
+          "text": "All right, here it is.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/am-dlg-01-t03.d44c318c.mp3",
+              "ms": 1709,
+              "words": [
+                {
+                  "w": "All",
+                  "s": 15,
+                  "e": 240
+                },
+                {
+                  "w": "right,",
+                  "s": 278,
+                  "e": 528
+                },
+                {
+                  "w": "here",
+                  "s": 728,
+                  "e": 965
+                },
+                {
+                  "w": "it",
+                  "s": 1040,
+                  "e": 1202
+                },
+                {
+                  "w": "is.",
+                  "s": 1215,
+                  "e": 1502
+                }
+              ]
+            }
+          ]
+        },
+        "am": {
+          "text": "እሺ፣ ይኸውና።",
+          "translit": "ishi, yihewna.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "am-ET-MekdesNeural",
+              "src": "am-ET-MekdesNeural/am-dlg-01-t03.1ed0798d.mp3",
+              "ms": 943,
+              "words": [
+                {
+                  "w": "እሺ፣",
+                  "s": 0,
+                  "e": 204
+                },
+                {
+                  "w": "ይኸውና።",
+                  "s": 342,
+                  "e": 666
+                }
+              ]
+            },
+            {
+              "voice": "am-ET-AmehaNeural",
+              "src": "am-ET-AmehaNeural/am-dlg-01-t03.e35d4016.mp3",
+              "ms": 936,
+              "words": [
+                {
+                  "w": "እሺ፣",
+                  "s": 0,
+                  "e": 236
+                },
+                {
+                  "w": "ይኸውና።",
+                  "s": 348,
+                  "e": 660
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "tags": [
+        "dialogue"
+      ]
+    },
+    {
+      "id": "am-dlg-01-t05",
+      "island": "market",
+      "role": "hear",
+      "texts": {
+        "en": {
+          "text": "It's twenty birr.",
+          "status": "native",
+          "audio": [
+            {
+              "voice": "en-KE-ChilembaNeural",
+              "src": "en/am-dlg-01-t05.154912a8.mp3",
+              "ms": 1052,
+              "words": [
+                {
+                  "w": "It's",
+                  "s": 7,
+                  "e": 257
+                },
+                {
+                  "w": "twenty",
+                  "s": 320,
+                  "e": 570
+                },
+                {
+                  "w": "birr.",
+                  "s": 644,
+                  "e": 857
+                }
+              ]
+            }
+          ]
+        },
+        "am": {
+          "text": "ሃያ ብር ነው።",
+          "translit": "haya birr new.",
+          "status": "fixture",
+          "audio": [
+            {
+              "voice": "am-ET-MekdesNeural",
+              "src": "am-ET-MekdesNeural/am-dlg-01-t05.6b162726.mp3",
+              "ms": 904,
+              "words": [
+                {
+                  "w": "ሃያ",
+                  "s": 5,
+                  "e": 280
+                },
+                {
+                  "w": "ብር",
+                  "s": 330,
+                  "e": 505
+                },
+                {
+                  "w": "ነው።",
+                  "s": 542,
+                  "e": 692
+                }
+              ]
+            },
+            {
+              "voice": "am-ET-AmehaNeural",
+              "src": "am-ET-AmehaNeural/am-dlg-01-t05.c11424c9.mp3",
+              "ms": 965,
+              "words": [
+                {
+                  "w": "ሃያ",
+                  "s": 16,
+                  "e": 266
+                },
+                {
+                  "w": "ብር",
+                  "s": 354,
+                  "e": 541
+                },
+                {
+                  "w": "ነው።",
+                  "s": 578,
+                  "e": 716
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "kind": "starter",
+      "tags": [
+        "dialogue"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "am-dlg-01",
+      "island": "market",
+      "title": {
+        "en": "At the kiosk",
+        "am": "ሱቅ ላይ"
+      },
+      "turns": [
+        {
+          "speaker": "them",
+          "thought": "am-dlg-01-t01"
+        },
+        {
+          "speaker": "you",
+          "thought": "st-0010"
+        },
+        {
+          "speaker": "them",
+          "thought": "am-dlg-01-t03"
+        },
+        {
+          "speaker": "you",
+          "thought": "st-0009"
+        },
+        {
+          "speaker": "them",
+          "thought": "am-dlg-01-t05"
+        },
+        {
+          "speaker": "you",
+          "thought": "st-0004"
+        }
+      ],
+      "place": "kiosk"
+    }
+  ],
+  "places": [
+    {
+      "id": "kiosk",
+      "name": {
+        "en": "Kiosk",
+        "am": "ሱቅ"
+      },
+      "blurb": {
+        "en": "Buying water and asking the price."
+      },
+      "order": 1,
+      "island": "market",
+      "dialogues": [
+        "am-dlg-01"
+      ]
+    }
+  ],
+  "proverbs": [
+    {
+      "id": "am-pv-001",
+      "lang": "am",
+      "text": "ቀስ በቀስ እንቁላል በእግሩ ይሄዳል።",
+      "translit": "kes be-kes, inkulal be-igru yihedal.",
+      "meaning": {
+        "en": "Little by little, even an egg learns to walk."
+      },
+      "literal": "slowly, slowly, the egg walks on its own legs",
+      "theme": "patience",
+      "audio": [
+        {
+          "voice": "am-ET-MekdesNeural",
+          "src": "proverbs/am-pv-001.d0e40d93.mp3",
+          "ms": 2040,
+          "words": [
+            {
+              "w": "ቀስ",
+              "s": 0,
+              "e": 191
+            },
+            {
+              "w": "በቀስ",
+              "s": 216,
+              "e": 541
+            },
+            {
+              "w": "እንቁላል",
+              "s": 566,
+              "e": 991
+            },
+            {
+              "w": "በእግሩ",
+              "s": 1016,
+              "e": 1366
+            },
+            {
+              "w": "ይሄዳል።",
+              "s": 1416,
+              "e": 1828
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "voices": [
+    {
+      "id": "am-ET-MekdesNeural",
+      "lang": "am",
+      "label": "Mekdes (Ethiopia, female)",
+      "gender": "female"
+    },
+    {
+      "id": "am-ET-AmehaNeural",
+      "lang": "am",
+      "label": "Ameha (Ethiopia, male)",
+      "gender": "male"
+    },
+    {
+      "id": "en-KE-ChilembaNeural",
+      "lang": "en",
+      "label": "Chilemba (Kenya, male)",
+      "gender": "male"
+    }
+  ]
+}

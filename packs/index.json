@@ -6,7 +6,8 @@
    "sw"
   ],
   "thoughts": 1218,
-  "core": 224
+  "core": 224,
+  "swap": true
  },
  {
   "id": "fixture",
@@ -16,5 +17,32 @@
   ],
   "thoughts": 12,
   "core": 9
+ },
+ {
+  "id": "starter-am",
+  "title": "Amharic · starter (preview)",
+  "targets": [
+   "am"
+  ],
+  "thoughts": 253,
+  "core": 192
+ },
+ {
+  "id": "starter-ar-EG",
+  "title": "Arabic (Egypt) · starter (preview)",
+  "targets": [
+   "ar-EG"
+  ],
+  "thoughts": 244,
+  "core": 184
+ },
+ {
+  "id": "starter-sw",
+  "title": "Kiswahili (Kenya) · starter",
+  "targets": [
+   "sw"
+  ],
+  "thoughts": 240,
+  "core": 180
  }
 ]

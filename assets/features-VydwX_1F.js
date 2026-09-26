@@ -1,1 +1,0 @@
-import{B as e,R as t}from"./audio-CZtsgvqk.js";function n(n,r){let i=e(r.target)??t(r.target);return!i||i.family!==`Bantu`||i.nounClasses!==`yes`?!1:n.packIndex.find(e=>e.id===n.pack?.id)?.swap??n.pack?.id===`ambi-sw`}function r(e){return e.target===`sw`}export{n,r as t};
